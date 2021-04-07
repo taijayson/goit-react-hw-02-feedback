@@ -1,0 +1,9 @@
+.label {
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 10px;
+}

@@ -23,7 +23,7 @@ class App extends Component {
 
   countPositivePersentage = () => {
     const { good } = this.state
-    return (good / this.countTotalFeedback()) * 100
+    return Math.floor((good / this.countTotalFeedback()) * 100)
   }
 
   render() {

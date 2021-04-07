@@ -1,0 +1,26 @@
+.feedback_options {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+  font-size: medium;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgba(43, 29, 245, 0.8);
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(43, 29, 245, 0.8);
+}
+
+.button:not(:last-child) {
+  margin-right: 15px;
+}
